@@ -1,30 +1,30 @@
-$-ff-sans: system-ui, sans-serif;
-$-ff-serif: serif;
+$-ff-sans: 'Roboto', sans-serif;
+$-ff-serif: 'Playfair Display', serif;
 
 $font-family-base: $-ff-sans;
 $font-family-accent: $-ff-sans;
 
 $font-sizes: (
-  "small": (
-    "900": 3.75rem,
-    "800": 2.25rem,
-    "700": 1.75rem,
-    "600": 1.125rem,
-    "500": 1.125rem,
-    "400": 1rem,
-    "300": 0.925rem,
-    "200": 0.875rem,
-  ),
-  "large": (
-    "900": 3.75rem,
-    "800": 3rem,
-    "700": 1.75rem,
-    "600": 1.3125rem,
-    "500": 1.125rem,
-    "400": 1rem,
-    "300": 0.925rem,
-    "200": 0.875rem,
-  ),
+	'small': (
+		'900': 3.75rem,
+		'800': 2.25rem,
+		'700': 1.75rem,
+		'600': 1.125rem,
+		'500': 1.125rem,
+		'400': 1rem,
+		'300': 0.925rem,
+		'200': 0.875rem
+	),
+	'large': (
+		'900': 3.75rem,
+		'800': 3rem,
+		'700': 1.75rem,
+		'600': 1.3125rem,
+		'500': 1.125rem,
+		'400': 1rem,
+		'300': 0.925rem,
+		'200': 0.875rem
+	)
 );
 
 $font-size-300: var(--fs-300);
