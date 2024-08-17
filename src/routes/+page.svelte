@@ -3,6 +3,7 @@
 </script>
 
 <div class="container">
-	<h1 class="heading-1">Home Page</h1>
+	<!-- TODO: hacked around because i wanted these on multiple lines -->
+	<h1 class="heading-1">Multnomah County<br />Library</h1>
 	<SearchHero />
 </div>

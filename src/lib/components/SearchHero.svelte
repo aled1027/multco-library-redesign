@@ -1,29 +1,29 @@
 <script lang="ts">
+	let rows = 4;
+	let cols = 4;
 </script>
 
 <div class="container search-hero | flow" data-type="full-width">
 	<div class="search-area">
 		<form class="form" aria-labelledby="search-label">
 			<div class="search-hero-background">
-				<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="50" cy="50" r="40" stroke="black" stroke-width="5" fill="none">
-						<animate
-							attributeName="r"
-							from="40"
-							to="20"
-							dur="10s"
-							begin="0s"
-							repeatCount="indefinite"
-						/>
-						<animate
-							attributeName="stroke-opacity"
-							from="1"
-							to="0"
-							dur="10s"
-							begin="0s"
-							repeatCount="indefinite"
-						/>
-					</circle>
+				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+					<g transform="translate(20,20)">
+						{#each Array(rows).fill(0) as _, row}
+							{#each Array(cols).fill(0) as _, col}
+								<circle cx={col * 40} cy={row * 40} r="8" fill="black" opacity="0">
+									<animate
+										attributeName="opacity"
+										values="0; 1; 0"
+										keyTimes="0; 0.5; 1"
+										dur="7s"
+										begin={`${0.1 * (row * cols + col)}s`}
+										repeatCount="indefinite"
+									/>
+								</circle>
+							{/each}
+						{/each}
+					</g>
 				</svg>
 			</div>
 			<label for="search" id="search-label" class="label">What do you want to find:</label>
@@ -46,8 +46,16 @@
 			</div>
 		</form>
 	</div>
-	<div class="box">1</div>
-	<div class="box">2</div>
-	<div class="box">3</div>
-	<div class="box">4</div>
+	<div class="box">
+		<a class="heading-3" href="#">Books</a>
+	</div>
+	<div class="box">
+		<a class="heading-3" href="#">Events</a>
+	</div>
+	<div class="box">
+		<a class="heading-3" href="#">Locations</a>
+	</div>
+	<div class="box">
+		<a class="heading-3" href="#">Other Services</a>
+	</div>
 </div>

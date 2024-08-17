@@ -7,7 +7,7 @@ $enable-media-query-dark-mode: false;
 
 // Contextual
 $color-text-default: $color-neutral-700;
-$color-background-default: $color-primary-100;
+$color-background-default: $color-neutral-200;
 $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
@@ -81,7 +81,7 @@ $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 // site header
-$site-header-background-color: $color-primary-300;
+$site-header-background-color: $color-background-default;
 $site-header-color: $color-neutral-900;
 $site-header-padding: $size-8 0;
 $site-header-margin: 0;

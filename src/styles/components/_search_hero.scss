@@ -81,17 +81,40 @@
 		background: green;
 		padding: 0;
 		margin: 0;
+
+		background: url(/placeholder.png) no-repeat center center fixed;
+		background-size: cover;
+		border: 1px solid $color-neutral-900;
+
+		display: flex;
+		justify-content: start;
+		align-items: end;
+		padding-inline-start: 2rem;
+		padding-block-end: 2rem;
+	}
+
+	.box a {
+		text-decoration: none;
+		color: $color-neutral-200;
+	}
+
+	.box a:hover {
+		text-decoration: underline;
 	}
 
 	.search-hero-background {
-		background: purple;
+		background-color: #324fa4;
 		grid-area: none;
 		position: absolute;
 		inset: 0;
 	}
 
 	.search-hero-background svg {
-		width: 100%;
-		height: 100%;
+		width: 100px;
+		height: 100px;
+
+		position: absolute;
+		bottom: 0;
+		left: 10px;
 	}
 }

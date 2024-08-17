@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<header>
+<header class="site-header">
 	<ul>
 		<li>
 			<a href="/">Home</a>
