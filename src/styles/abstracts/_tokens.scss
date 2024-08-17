@@ -54,11 +54,12 @@ $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
 
 $heading-font-family: $font-family-accent;
+$heading-font-optical-sizing: auto;
 $heading-color-default: $color-neutral-900;
 $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
 $heading-line-height: 1.1;
-$heading-text-transform: uppercase;
+$heading-text-transform: none;
 
 $heading-1-font-size: $font-size-900;
 $heading-1-color: $heading-color-default;
@@ -117,8 +118,8 @@ $footer-link-text-decoration: none;
 // buttons
 $button-font-family: $body-font-family;
 $button-font-size: $font-size-400;
-$button-font-weight: $font-weight-bold;
-$button-text-transform: uppercase;
+$button-font-weight: $font-weight-default;
+$button-text-transform: none;
 $button-padding: 0.75em 2em;
 $button-border: 0;
 $button-border-radius: $border-radius-1;

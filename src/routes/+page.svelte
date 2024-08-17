@@ -285,14 +285,6 @@
 		--color-gray-900: rgb(30, 30, 30);
 	}
 
-	.container {
-		line-height: 1.5;
-		font-size: 1.25rem;
-		margin-inline: auto;
-		padding-inline: clamp(1rem, 10vw, 10rem);
-		padding-top: 3rem;
-	}
-
 	h2,
 	h3 {
 		margin-block: 0;
@@ -389,12 +381,6 @@
 
 	.event-filters {
 		padding-right: 2rem;
-	}
-
-	legend {
-		font-weight: 500;
-		padding-top: 1rem;
-		padding-bottom: 0.5rem;
 	}
 
 	input[type='text'] {
