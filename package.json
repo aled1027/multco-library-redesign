@@ -27,6 +27,7 @@
 	"type": "module",
 	"dependencies": {
 		"gsap": "^3.12.5",
+		"kute.js": "^2.2.4",
 		"lodash": "^4.17.21",
 		"minisearch": "^7.1.0"
 	}

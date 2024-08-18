@@ -109,12 +109,30 @@
 		inset: 0;
 	}
 
-	.search-hero-background svg {
+	.top-middle-svg {
+		/* 360 by 600 */
+		/* 1.6667 */
+		width: 180px;
+		height: 96px;
+		position: absolute;
+		top: 10%;
+		left: calc(50% - 90px);
+	}
+
+	.bottom-left-svg {
 		width: 100px;
 		height: 100px;
 
 		position: absolute;
 		bottom: 0;
 		left: 10px;
+
+		background: transparent;
+		fill: transparent;
+	}
+
+	#pdx-flag-green,
+	#pdx-flag-blue {
+		transform-origin: center;
 	}
 }
