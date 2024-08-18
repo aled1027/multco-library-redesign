@@ -152,15 +152,15 @@ $form-label-font-size: $body-font-size;
 
 $form-input-color: $body-text-color;
 $form-input-font-family: $body-font-family;
-$form-input-font-weight: $font-weight-semi-bold;
+$form-input-font-weight: $font-weight-default;
 $form-input-font-size: $body-font-size;
 $form-input-background-color: $color-neutral-100;
-$form-input-border-default: 3px solid $color-primary-200;
+$form-input-border-default: 1px solid $color-neutral-500;
 $form-input-border-focus: 3px solid $color-primary-400;
 $form-input-padding: $size-3;
 $form-input-border-radius: $border-radius-1;
 
-$form-placeholder-color: $color-primary-300;
+$form-placeholder-color: $body-text-color;
 $form-placeholder-font-family: $form-input-font-family;
 $form-placeholder-font-weight: $form-input-font-weight;
 $form-placeholder-font-size: $body-font-size;

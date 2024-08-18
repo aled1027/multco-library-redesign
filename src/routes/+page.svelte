@@ -196,8 +196,8 @@
 
 <Hero />
 <div class="container">
-	<section>
-		<h2 class="heading-2 ml--1 mt-5rem mb-5rem">Events</h2>
+	<section class="section">
+		<h2 class="heading-2 ml--1 mt-5rem mb-5rem">Multnomah Count Library Events</h2>
 		<div class="grid-2col">
 			<div class="event-filters | flow mt-dot25rem mb-5rem">
 				<h3 class="heading-3">Filters</h3>
@@ -236,18 +236,17 @@
 					>Clear filters</button
 				>
 				<hr />
-				<p>
-					Unsupported Filters<br />
-					(because data was scraped)
-				</p>
 				<fieldset>
 					<legend>Ages</legend>
+					<p>Coming soon</p>
 				</fieldset>
 				<fieldset>
 					<legend>Event Type</legend>
+					<p>Coming soon</p>
 				</fieldset>
 				<fieldset>
 					<legend>Language & Culture</legend>
+					<p>Coming soon</p>
 				</fieldset>
 			</div>
 			<div>
@@ -377,17 +376,11 @@
 		}
 	}
 
-	.flow > * + * {
-		margin-bottom: 1rem;
-	}
-
 	.event-filters {
 		padding-right: 2rem;
 	}
 
 	input[type='text'] {
-		font-size: inherit;
-		padding: 0.5rem;
 		width: 100%;
 	}
 
