@@ -43,7 +43,7 @@
 				>.
 			</p>
 			<p>
-				Made by <a href="alexledger.net">Alex Ledger</a>.
+				Made by <a href="https://alexledger.net">Alex Ledger</a>.
 			</p>
 		</div>
 	</dialog>
