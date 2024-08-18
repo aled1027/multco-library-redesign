@@ -194,10 +194,8 @@
 	this!).
 </details> -->
 
+<Hero />
 <div class="container">
-	<!-- TODO: hacked around because i wanted these on multiple lines -->
-	<h1 class="heading-1">Multnomah County<br />Library</h1>
-	<Hero />
 	<section>
 		<h2 class="heading-2 ml--1 mt-5rem mb-5rem">Events</h2>
 		<div class="grid-2col">
