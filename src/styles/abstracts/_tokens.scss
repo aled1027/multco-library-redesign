@@ -7,13 +7,12 @@ $enable-media-query-dark-mode: false;
 
 // Contextual
 $color-text-default: $color-neutral-700;
-$color-background-default: $color-neutral-200;
+$color-background-default: $color-neutral-100;
 $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
 // set to 0 to disable
 $letter-spacing-loose: 0;
-
 $border-radius-1: $size-2;
 $border-radius-2: $size-4;
 
@@ -83,7 +82,7 @@ $container-max-width-wide: 75rem;
 // site header
 $site-header-background-color: $color-background-default;
 $site-header-color: $color-neutral-900;
-$site-header-padding: $size-8 0;
+$site-header-padding: $size-5;
 $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: center;
 $site-header-jusitifcation-large-screens: space-between;

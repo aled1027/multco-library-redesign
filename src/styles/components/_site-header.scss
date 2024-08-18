@@ -1,18 +1,49 @@
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 .site-header {
-  color: $site-header-color;
-  background-color: $site-header-background-color;
-  padding: $site-header-padding;
+	color: $site-header-color;
+	background-color: $site-header-background-color;
 
-  &__inner {
-    display: flex;
-    gap: $size-4;
-    align-items: $site-header-alignment;
-    justify-content: $site-header-jusitifcation-small-screens;
+	&__inner {
+		border-bottom: 1px solid $color-neutral-900;
+		padding: $site-header-padding;
 
-    @include mq(medium) {
-      justify-content: $site-header-jusitifcation-large-screens;
-    }
-  }
+		display: flex;
+		gap: $size-4;
+		align-items: $site-header-alignment;
+		justify-content: $site-header-jusitifcation-small-screens;
+
+		@include mq(medium) {
+			justify-content: $site-header-jusitifcation-large-screens;
+		}
+	}
+
+	.menu-button {
+		width: 80px;
+		height: 50px;
+		cursor: pointer;
+	}
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	color: $color-text-default;
+
+	.subtitle {
+		max-width: 50ch;
+		text-wrap: balance;
+		font-size: 0.875rem;
+		opacity: 0.9;
+	}
+
+	a {
+		color: $color-text-default;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
 }
