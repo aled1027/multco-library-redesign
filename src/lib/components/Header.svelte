@@ -7,15 +7,6 @@
 			<a href="/">Multco Library Events</a>
 			<span class="subtitle">An Unofficial Resource of Multnomah County Library Events</span>
 		</div>
-		<button class="menu-button">Menu</button>
-
-		<ul class="visually-hidden">
-			<li>
-				<a href="/">Home</a>
-			</li>
-			<li>
-				<a href="/events">Events</a>
-			</li>
-		</ul>
+		<button class="menu-button">About</button>
 	</div>
 </header>

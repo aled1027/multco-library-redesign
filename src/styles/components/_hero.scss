@@ -66,6 +66,23 @@
 		grid-area: none;
 		position: absolute;
 		inset: 0;
+
+		animation: backgroundTransition 20s infinite alternate;
+	}
+
+	@keyframes backgroundTransition {
+		0% {
+			background-color: #324fa4;
+		}
+		33% {
+			background-color: #f04e23;
+		}
+		66% {
+			background-color: #ffd700;
+		}
+		100% {
+			background-color: #324fa4;
+		}
 	}
 
 	.bottom-left-svg {
