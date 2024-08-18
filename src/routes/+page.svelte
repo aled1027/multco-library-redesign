@@ -182,17 +182,7 @@
 	});
 </script>
 
-<!-- <details class="mb-5rem">
-	<summary>This is a demo and experiment...</summary>
-	for displaying events for the Multnomah county library. The events are sourced from
-	<a href="https://multcolib.org/events-classes">https://multcolib.org/events-classes</a>. At times,
-	I've had issues navigating the events at the library, and some pages on the library website load
-	slowly, are not aesthetically pleasing, and struggle with some lighthouse metrics, so this is me
-	exploring ways to address those issues. This tool aims to be simple, accessible, and useable. Note
-	that this is a demo; a full implementation as needed by the library would have additional
-	requirements, such as internationalization and language support. (The library website provides
-	this!).
-</details> -->
+
 
 <Hero />
 <div class="container">
