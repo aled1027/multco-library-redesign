@@ -403,8 +403,8 @@
 
 		grid-template-rows: 30px 46px;
 		grid-template-columns: 1fr;
-		height: 72px;
 		width: 76px;
+		height: 76px;
 
 		border: 1px solid black;
 		border-radius: 4%;
