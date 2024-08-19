@@ -182,8 +182,6 @@
 	});
 </script>
 
-
-
 <Hero />
 <div class="container">
 	<section class="section">
@@ -235,7 +233,11 @@
 					<p>Coming soon</p>
 				</fieldset>
 				<fieldset>
-					<legend>Language & Culture</legend>
+					<legend>Language</legend>
+					<p>Coming soon</p>
+				</fieldset>
+				<fieldset>
+					<legend>Culture</legend>
 					<p>Coming soon</p>
 				</fieldset>
 			</div>
