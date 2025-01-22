@@ -53,8 +53,8 @@
 	const defaultFilterValues = {
 		locations: [],
 		searchQuery: '',
-		endDate: formatDate(addDaysToDate(new Date(), 60))
 		startDate: '2024-10-13',
+		endDate: formatDate(addDaysToDate(new Date(), 60))
 	};
 	const filter = writable<Filter>(_.clone(defaultFilterValues));
 
